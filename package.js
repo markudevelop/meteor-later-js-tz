@@ -1,7 +1,7 @@
 Package.describe({
   name: "voidale:later-js-tz",
-  description: 'later.js wrapped for meteor with timezone support',
-  github: ''
+  summary: 'later.js wrapped for meteor with timezone support',
+  github: 'https://github.com/voidale/meteor-later-js-tz',
   version: "1.1.9"
 });
 

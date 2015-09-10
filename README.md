@@ -1,8 +1,10 @@
-#Later.js 
+Later.js With Timezone Support for Meteor
+=========================
+
 * laterjs 1.1.9 exported to client and server.
 * Timezone parsing support on server-side using https://www.npmjs.com/package/timezone
 
-#Usage
+## Usage
 
 ````
 var schedule = later.parse.recur().on('11:00', '13:00').time().onWeekday();
@@ -20,7 +22,7 @@ later.date.timezone("America/Los_Angeles");
 later.schedule(schedule).next(10);
 ````
 
-#Example
+## Example
 * Server time is UTC
 ````
 UTC:
